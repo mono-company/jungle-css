@@ -1,0 +1,25 @@
+{
+  "name": "jungle-css",
+  "version": "1.0.0",
+  "description": "Jungle BEM/ITCSS framework",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mono-company/jungle-npm.git"
+  },
+  "keywords": [
+    "design",
+    "html",
+    "css",
+    "frontend",
+    "framework"
+  ],
+  "author": "Mono Company BVBA",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mono-company/jungle-npm/issues"
+  },
+  "homepage": "https://github.com/mono-company/jungle-npm#readme"
+}
