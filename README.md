@@ -18,7 +18,7 @@ Load in the full CSS file:
 
 (Paths will depend on your specific framework)
 
-This is useful for checking out Ygdir. In production, you will want to load in parts of the CSS, meant for specific things, by hand:
+This is useful for checking out Jungle. In production, you will want to load in parts of the CSS, meant for specific things, by hand:
 
     @import "../../node_modules/ygdir/scss/junglecss/reset"; // Always start with the reset
     @import "../../node_modules/ygdir/scss/junglecss/e-base"; // Always load base elements as well
