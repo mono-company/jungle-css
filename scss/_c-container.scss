@@ -1,7 +1,8 @@
 /* ==========================================================================
-   Global variables
-   Prefixed with $g-
+  Container
    ========================================================================== */
 
-$g-heading-color: #000;
-$g-text-color: #333;
+.c-container {
+  width: 96rem;
+  margin: 0 auto;
+}

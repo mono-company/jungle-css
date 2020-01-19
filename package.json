@@ -1,9 +1,15 @@
 {
-  "name": "jungle-css",
-  "version": "1.0.0",
-  "description": "Jungle BEM/ITCSS framework",
+  "name": "jungle",
+  "version": "2.0.0",
+  "description": "Jungle is a set of HTML and CSS components.",
+  "main": "index.js",
+  "devDependencies": {
+    "node-sass": "^4.13.0"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "node-sass scss/ygdir.scss > css/ygdir.css",
+    "dev": "node-sass --watch --recursive --output css --source-map true --source-map-contents scss"
   },
   "repository": {
     "type": "git",
